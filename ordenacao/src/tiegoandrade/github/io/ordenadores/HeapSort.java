@@ -1,4 +1,6 @@
-package ordenacao;
+package tiegoandrade.github.io.ordenadores;
+
+import tiegoandrade.github.io.modelo.Ordenacao;
 
 public class HeapSort extends Ordenacao {
 	

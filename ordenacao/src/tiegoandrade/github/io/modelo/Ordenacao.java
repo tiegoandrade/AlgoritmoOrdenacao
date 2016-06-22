@@ -1,4 +1,4 @@
-package ordenacao;
+package tiegoandrade.github.io.modelo;
 
 public abstract class Ordenacao {
 	

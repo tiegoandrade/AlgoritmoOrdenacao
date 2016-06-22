@@ -1,4 +1,6 @@
-package ordenacao;
+package tiegoandrade.github.io.ordenadores;
+
+import tiegoandrade.github.io.modelo.Ordenacao;
 
 public class SelectionSort extends Ordenacao {
 	
@@ -6,7 +8,8 @@ public class SelectionSort extends Ordenacao {
 	public void ordenar(int[] valores) {
 		int menorValor = 0; // Atributo que armazena o menor valor de um vetor.
 		
-		/* Laço que passa o valor do índice do vetor como menor número. 
+		/* 
+		 * Laço que passa o valor do índice do vetor como menor número. 
 		 * Esse laço percorre o vetor do primeiro até o penúltimo valor do vetor.
 		 */
 		for (int i = 0; i < valores.length - 1; i++) {

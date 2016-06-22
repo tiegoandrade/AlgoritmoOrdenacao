@@ -1,11 +1,13 @@
-package ordenacao;
+package tiegoandrade.github.io.ordenadores;
+
+import tiegoandrade.github.io.modelo.Ordenacao;
 
 public class BubbleSort extends Ordenacao {
 	
 	/* Métedo que ordenará o vetor pela técnica de Ordenação Bolha. */
 	public void ordenar(int[] valores) {
 		
-		/* Laço percorrerá o vetor desde a última posição até a segunda posição */
+		/* Laço percorrerá o vetor da última posição até a segunda posição */
 		for (int i = valores.length - 1; i > 0; i--) {
 			
 			/* 
